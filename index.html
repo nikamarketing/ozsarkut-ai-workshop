@@ -7,7 +7,7 @@
 <title>AI for Business Program</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Instrument+Sans:wght@400;500;600&family=DM+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Koh+Santepheap:wght@400;700;900&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=DM+Mono:wght@400;500&display=swap">
 <style>
 /* Layout: same sheet as Workshop 01; a dark masthead, then the seven workshops as a numbered sequence (the order is real: 01 introduces, 07 joins them up), then program details with placeholders still to confirm. */
 :root{
@@ -27,8 +27,8 @@
   --band-ink-2:#c5c8d2;
   --glow:#e27a2b;
   --card:#ffffff;
-  --f-display:"Bricolage Grotesque","Avenir Next","Segoe UI Variable Display","Helvetica Neue",Arial,sans-serif;
-  --f-body:"Instrument Sans","Segoe UI","Helvetica Neue",Arial,sans-serif;
+  --f-display:"Koh Santepheap",Georgia,"Times New Roman",serif;
+  --f-body:"DM Sans","Segoe UI","Helvetica Neue",Arial,sans-serif;
   --f-mono:"DM Mono",ui-monospace,"SF Mono",Menlo,Consolas,monospace;
 }
 @media (prefers-color-scheme: dark){
@@ -56,7 +56,7 @@ a:focus-visible{outline:2px solid var(--amber);outline-offset:3px;border-radius:
 .topbar a{text-decoration:none;border-bottom:1px solid var(--amber-line);padding-bottom:1px}
 .mast{background:var(--band);color:var(--band-ink);padding:44px 32px 40px;display:grid;gap:16px}
 .eyebrow{font:500 12px/1 var(--f-mono);letter-spacing:.12em;text-transform:uppercase;color:var(--glow)}
-h1{font:800 clamp(40px,7vw,72px)/.95 var(--f-display);letter-spacing:-.02em;margin:0;text-wrap:balance}
+h1{font:700 clamp(40px,7vw,72px)/.95 var(--f-display);letter-spacing:-.01em;margin:0;text-wrap:balance}
 .sub{font:500 clamp(18px,2.4vw,22px)/1.35 var(--f-display);color:var(--band-ink-2);margin:0;max-width:44ch}
 .core{margin:8px 0 0;padding-top:18px;border-top:1px solid rgba(255,255,255,.16);font:700 clamp(22px,3.4vw,30px)/1.15 var(--f-display)}
 .core em{font-style:normal;color:var(--glow);text-shadow:0 0 22px rgba(226,122,43,.4)}
@@ -68,7 +68,7 @@ p{margin:0;max-width:64ch}
 
 .steps{list-style:none;margin:0;padding:0;display:grid;gap:0;border-top:1px solid var(--line)}
 .step{display:grid;grid-template-columns:64px 48px minmax(0,1fr) minmax(0,1fr);gap:16px;align-items:start;padding:18px 0;border-bottom:1px solid var(--line)}
-.step .n{font:800 34px/1 var(--f-display);font-variant-numeric:tabular-nums;color:var(--ink-3)}
+.step .n{font:700 34px/1 var(--f-display);font-variant-numeric:tabular-nums;color:var(--ink-3)}
 .step .ic{width:44px;height:44px;border-radius:50%;display:grid;place-items:center;border:1.5px solid var(--amber-line);color:var(--amber);background:var(--amber-soft);box-shadow:0 0 0 4px var(--sheet),0 0 18px -4px var(--amber-line)}
 .step .ic svg{width:22px;height:22px}
 .step .title{display:grid;gap:3px}
